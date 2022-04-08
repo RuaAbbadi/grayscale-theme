@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap js -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- bootstrap css -->
+    <link  rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <!-- custom  css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!-- start of navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top mt-3">
+        <div class="container">
+          <a class="navbar-brand text-capitalize text-custom" href="#">start bootstrap</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-capitalize text-custom transition-5 me-4" aria-current="page" href="#about">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize text-custom transition-5 me-4" href="#projects">projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize text-custom transition-5 me-4" href="#signup">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- end of navbar -->
+    
+    <!-- start of header -->
+    <header class="home vh-100 position-relative text-center text-white" id="home">
+        <div class="container">
+            <div class="home-content">
+                <h1 class="text-uppercase mx-auto my-0">grayscale</h1>
+                <p class="w-55 mt-2 mb-5 text-white-50 fw-bold "><span class="text-capitalize">a</span> free, responsive, one page <span class="text-capitalize">b</span>ootstrap theme created by <span class="text-capitalize">s</span>tart <span class="text-capitalize">b</span>ootstrap.</p>
+                <a class="btn btn-danger text-uppercase btn-primary transition-5" href="#">get started</a>
+            </div>
+        </div>
+    </header>
+    <!-- end of header -->
+    
+    <main>
+        <!-- start of about -->
+        <section class="about text-center position-relative text-white p-5" id="about">
+            <div class="container">
+                <div class="about-content">
+                    <h2 class="mb-4"><span class="text-capitalize">b</span>uilt with <span class="text-capitalize">b</span>ootstrap 5</h2>
+                    <p class="w-50 m-auto text-white-50">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template <a href="#">on the preview page.</a>  The theme is open source, and you can use it for any purpose, personal or commercial.</p>
+                </div>
+                <img class="img-fluid w-100 mt-5" src="./assets/img/ipad.png" alt="ipad-image"/>
+            </div>
+        </section>
+        <!-- end of about -->
+
+        <!-- start of projects -->
+        <section class="projects my-5 py-5" id="projects">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-8 m-0 p-0">
+                        <img class="img-fluid w-100" src="./assets/img/bg-masthead.jpg" alt="moutains" />
+                    </div>
+                    <div class="col-md-4 feature-left text-center">
+                        <h3 class="text-capitalize">shoreline</h3>
+                        <p class="w-75 m-auto text-black-50 fw-bold"><span class="text-capitalize">g</span>rayscale is open source and <span class="text-uppercase">mit</span> licensed. <span class="text-capitzlaize">t</span>his means you can use it for any project - even commercial projects! <span class="text-capitzlaize">d</span>ownload it, customize it, and publish your website!</p>
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-md-6 p-0">
+                        <img class="img-fluid w-100" src="./assets/img/demo-image-01.jpg" alt="moutains"/>
+                    </div>
+                    <div class="col-md-6 p-0">
+                        <div class="project-box bg-black h-100">
+                            <div class="h-100 d-flex">
+                                <div class= "my-auto text-center">
+                                    <h4 class="text-capitalize text-white">misty</h4>
+                                    <p class="w-58 text-white-50"><span class="text-capitalize">a</span> example of where you can put an image of a project, or anything else, along with a description.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 p-0">
+                        <div class="project-box bg-black h-100">
+                            <div class="h-100 d-flex">
+                                <div class= "my-auto text-center">
+                                    <h4 class="text-capitalize text-white">moutains</h4>
+                                    <p class="w-58 text-white-50"><span class="text-capitalize">a</span>nother example of a project with its respective description. <span class="text-capitalize"></span>hese sections work well responsively as well, try this theme on a small screen!.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 p-0">
+                        <img class="img-fluid w-100" src="./assets/img/demo-image-02.jpg" alt="moutains"/>
+                    </div>
+                   
+                </div>
+            </div>
+
+
+        </section>
+        <!-- end of projects -->
+
+        <!-- start of signup -->
+        <section class="signup mt-5 py-5 text-center vh-100" id="signup">
+            <div class="container">
+                <i class="fa-regular fa-paper-plane fs-2 text-white mt-5"></i>
+                <p class="mt-4 fs-2 text-white"><span class="text-capitalize">s</span>ubscribe to receive updates!</p>
+             <form class="mt-4">
+                 <input class="border-0 rounded-2 "type="email" placeholder="ENTER EMAIL ADDRESS..."/>
+                 <button class="btn btn-custom ms-3 disabled ">NOTIFY ME!</button>
+             </form>
+            </div>
+        </section>
+        <!-- end of contact -->
+
+        <!-- start of signup -->
+        <section class="contact text-center bg-black py-5" id="contact">
+            <div class="container px-4">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="contact-box bg-white p-4 rounded-2">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                            <h6 class="text-uppercase my-3 fw-bold">address</h6>
+                            <span class="line my-3"></span>
+                            <p class="text-capitalize w-100">4923 market street, orlando fL</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="contact-box bg-white p-4 rounded-2">
+                            <i class="fa-solid fa-envelope"></i>
+                            <h6 class="text-uppercase my-3 fw-bold">email</h6>
+                            <span class="line my-3"></span>
+                            <p><a href="#">hello@yourdomain.com</a> </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="contact-box bg-white p-4 rounded-2">
+                            <i class="fa-solid fa-mobile-screen-button"></i> 
+                            <h6 class="text-uppercase my-3 fw-bold">phone</h6>
+                            <span class="line my-3"></span>
+                            <p class="text-capitalize">+1 (555) 902-8832</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of signup -->
+    </main>
+
+    <!-- start of footer -->
+    <footer class="bg-black py-5 text-center">
+        <div class="container">
+           <ul class="list-inline mt-4">
+               <li class="list-inline-item ms-3 rounded-circle"><a href="#"><i class="fa-brands fa-twitter transition-5"></i></a></li>
+               <li class="list-inline-item  ms-3 rounded-circle"><a href="#"><i class="fa-brands fa-facebook-f transition-5"></i></a></li>
+               <li class="list-inline-item  ms-3 rounded-circle"><a href="#"><i class="fa-brands fa-github transition-5"></i></a></li>
+           </ul>
+           <p class="text-capitalize text-white-50 mt-5 py-5">copyright 	&copy; your website 2022</p>
+        </div>
+
+    </footer>
+    <!-- end of footer -->
+</body>
+</html>
