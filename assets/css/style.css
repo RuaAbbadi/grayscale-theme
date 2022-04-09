@@ -20,6 +20,10 @@ body{
     width:58%;
     margin: auto;
 }
+.w-60{
+    width:60%;
+    margin: auto;
+}
 .btn-custom{
     letter-spacing: 2px;
     color:#fff;
@@ -95,6 +99,9 @@ body{
 .about .about-content a{
     color:#64a19d;
 }
+.about .about-content a:hover{
+    color:#558985
+}
 /* end of about */
 
 /* start of projects */
@@ -143,7 +150,7 @@ body{
     color:#64a19d;
 }
 .contact .contact-box p{
-    font-size: 11px;
+    font-size: 15px;
   
 }
 .contact .contact-box a:hover{
@@ -184,5 +191,19 @@ footer li:hover i{
     }
     .contact .contact-box {
         margin-top: 30px;
+    }
+    .contact .contact-box p{
+        font-size: 11px;
+    }
+    .projects .feature-left h3{
+        margin-top: 50px;
+    }
+    .projects .feature-left p{
+        width:100% !important;
+        margin: auto;
+    }
+    .project-box  div p {
+        width:100%!important;
+        margin: auto;
     }
 }
